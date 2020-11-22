@@ -1,0 +1,44 @@
+.container{
+	width: 100%;
+	padding-left: 2%;
+	padding-right: 2%;
+	box-sizing: border-box;
+	position: relative;
+}
+.navbar{
+	border-bottom:2px solid rgb(216, 215, 215);
+	width: 100%;
+	display: flex;
+	align-items: center;
+}
+.logo{
+	width: 100px;
+	cursor: pointer;
+	transition: 0.5s;
+} 
+.btn{
+  width: 180px;
+  height: 40px;
+  cursor: pointer;
+	background: #fc7941;
+	color:#fff;
+	text-align: center;
+	line-height: 35px;
+	border-radius:10px;
+	font-size: 16px;
+	font-weight: bold;
+}
+nav{
+	flex:1;
+	padding-left: 10px;
+}
+nav ul li{
+	display: inline-block;
+	list-style-type: none;
+    margin: 0px 10px;
+    font-weight: 500;
+}
+nav ul li a{
+	text-decoration: none;
+	color:rgb(109, 106, 106)
+}
