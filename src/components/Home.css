@@ -77,6 +77,7 @@ span{
 	font-size: 16px;
 	font-weight: bold;
 	cursor: pointer;
+	outline:none;
 }
 .button1{
 	width: 200px;
@@ -89,6 +90,7 @@ span{
 	font-size:16px ;
 	font-weight: bold;
 	cursor: pointer;
+	outline:none;
 }
 b{
 	color:#fc7941;
